@@ -1,0 +1,178 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #101010;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid white; /* Optional bottom border */
+    transition: transform 0.3s ease-in-out; 
+}
+
+/* Group navigation with the logo */
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Space between logo and nav */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Position the navigation next to the logo */
+.nav-links {
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+/* Style for navigation links */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Change color when hovering */
+.nav-links a:hover {
+    color: #363636;
+    transform: scale(1.05);
+}
+
+/* Highlight the Home button */
+.nav-links .active {
+    color: rgb(90, 90, 86);
+}
+
+
+
+.logo img {
+    height: 35px;
+    scale: 1.5;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.logo img :hover {
+    transform: scale(1.05);
+}
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adds space between phone and email */
+}
+
+.contact span {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+}
+
+.gmail-icon {
+    width: 20px; /* Adjust size */
+    height: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 800px; /* Adjust width as needed */
+    margin: auto;
+    padding: 50px 0; /* Adds spacing above and below */
+    
+}
+h1, h2 {
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;700&display=swap');
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    letter-spacing: 10px;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 2;
+    margin: 0;
+    transform: scale(2);
+    text-shadow: 4px 4px 8px rgba(41, 41, 41, 0.8); /* Proper shadow */
+}
+h1 {
+    color: #fff;
+    margin-bottom: 20px; /* Space from the tagline */
+}
+h2 {
+    color: #ccc;
+}
+.tagline {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    max-width: 600px; /* Prevents unnecessary wrapping */
+    margin-top: 10px; /* Space from the heading */
+    white-space: normal; /* Ensures proper word wrapping */
+    line-height: 1.4; /* Improves readability */
+    text-shadow: 4px 4px 8px rgba(22, 22, 22, 0.8); /* Proper shadow */
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin-top: 15px; /* Add space below the tagline */
+}
+
+.socials {
+    display: flex;
+    gap: 20px; /* Space between each social link */
+}
+
+.socials a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.socials img {
+    width: 24px;
+    height: 24px;
+}
+
+.socials a:hover {
+    color: #949494;
+    transform: scale(1.05);
+}
+
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 45px;
+}
+.images img {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(34, 34, 34, 0.2);
+    object-fit: cover;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.images img:hover {
+    transform: scale(1.05);
+}
+.footer {
+    margin-top: 9px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
